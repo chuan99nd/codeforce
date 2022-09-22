@@ -55,7 +55,7 @@ void print2DArray(T a[arr2DSize][arr2DSize], int n, int m){
 
 int main(){
    setUp();
-
+   
    tearDown();
    return 0;
 }

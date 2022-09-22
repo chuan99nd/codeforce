@@ -63,7 +63,19 @@ int main(){
    }
 
    // binary search
-   int s = 0, e = 500;
+   int s = 0, e = 500, m = 250;
+   while (true) {
+      m = (s + e)/2;
+      // process with min = m, m is the lower_bound
+      queue<pii> q;
+      q.push(start);
+      int minDist = MAX_I;
+      while (!q.empty())
+      {
+         
+      }
+   }
+   
    tearDown();
    return 0;
 }
